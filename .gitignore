@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# User data: never commit real legal/client documents
+data/uploads/
+data/private/
+
+# Editor and OS files
+.DS_Store
+.vscode/
+.idea/
+.agents/
